@@ -1,0 +1,52 @@
+.wheel {
+    width: fit-content;
+    width: 35%;
+}
+#spinner_img {
+    width: 100%;
+    transition: 5s;
+}
+#arrow_down {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: 64px;
+}
+.spin {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* .wheel {
+    clip-path: circle(50%);
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.wheel-parts {
+    display: inline-block;
+    position: absolute;
+    z-index: 15;
+    width: 200px;
+    height: 210px;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+}
+.wheel-1 {
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.wheel-2 {    
+    top: 9%;
+    left: 69%;
+    transform: translatex(-49%) rotate(51deg);
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+}
+.wheel-3 {    
+    top: 9%;
+    left: 69%;
+    transform: translatex(-49%) rotate(51deg);
+    clip-path: polygon(100% 0, 50% 100%, 0 0); 
+}*/
