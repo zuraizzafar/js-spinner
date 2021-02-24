@@ -1,11 +1,8 @@
-.wheel {
-    width: fit-content;
-    width: 35%;
-}
 #spinner_img {
     width: 100%;
     transition: 5s;
 }
+
 #arrow_down {
     position: absolute;
     top: 60px;
@@ -14,11 +11,19 @@
     z-index: 5;
     width: 64px;
 }
+
 .spin {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media only screen and (min-width: 600px) {
+    .wheel {
+        width: 35%!important;
+    }
+}
+
 /* .wheel {
     clip-path: circle(50%);
     height: 400px;
