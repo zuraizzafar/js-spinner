@@ -37,3 +37,7 @@ function spin() {
         ++flag;
     }, 5000);
 }
+
+$(document).on("click", ".wheel", function() {
+    spin();
+})

@@ -1,3 +1,7 @@
+.wheel {
+    cursor: pointer;
+}
+
 #spinner_img {
     width: 100%;
     transition: 5s;
