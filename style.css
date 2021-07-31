@@ -1,6 +1,7 @@
 #spinner_img {
     width: 100%;
     transition: 5s;
+    user-select: none;
 }
 
 #arrow_down {
